@@ -1,0 +1,10 @@
+[package]
+name = "c_call"
+version = "0.1.0"
+authors = ["Captcha <captcha.yang@dasudian.com>"]
+
+[lib]
+name = "native"
+crate-type = ["staticlib"]
+
+[dependencies]
